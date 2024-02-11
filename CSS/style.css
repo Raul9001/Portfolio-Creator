@@ -1,0 +1,157 @@
+
+:root {
+    --secondary-color:#666;
+}
+
+*{
+text-decoration: none;
+}
+  body{
+    font-family: "Roboto", sans-serif;
+   
+  }
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+    
+}
+header nav{
+    display:none
+}
+
+
+header nav a{
+
+    color: #000;
+    margin-right: 10px;
+}
+
+header img {
+    margin-top: 10px;
+}
+/* Introduction start */
+.Introduction .intro-left-side h1 span {
+
+    color: #FF8A56;
+}
+.Introduction .intro-left-side h1{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.Introduction .intro-left-side p{
+    color: var(--secondary-color);
+}
+.Introduction .intro-left-side .Book{
+
+    background-color: #000;
+    color:#fff ;
+   width: 151px;
+   height: 58px;
+   
+   align-items: center;
+   justify-content: center;
+   display: inline-flex;
+   margin-right: 40px;
+}
+
+
+.book-a-call{
+    margin-top: 40px;
+}
+
+
+.Introduction .intro-left-side .CV{
+    color:black;
+
+}
+
+
+
+
+
+
+/* Introduction end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:575px) {
+    .parentdiv{
+        max-width: 100% ;
+    }
+    
+}
+
+@media(min-width:576px) {
+    .parentdiv{
+        max-width: 540px;
+        margin: 0 auto;
+    }
+    
+}
+@media(min-width:768px){
+    .parentdiv{
+        max-width: 720px;
+        margin: 0 auto;
+    }
+}
+
+@media(min-width:992px){
+    .parentdiv{
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    .Introduction{
+        display: flex;
+    }
+    .Introduction .intro-left-side h1{
+        font-size: 72px; 
+    }
+    .Introduction .intro-left-side {
+       padding: 92px 0;
+
+}
+.Introduction .intro-right-side{
+    padding: 72px 0 ;
+}
+}
+
+@media(min-width:1200px){
+    .parentdiv{
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+}
+
+
+@media(min-width:768px){
+header nav{
+    display:block;
+}
+ .fa-bars{
+display: none;
+ }
+
+}
+    
