@@ -5,6 +5,7 @@
 
 *{
 text-decoration: none;
+outline: 1px solid red;
 }
   body{
     font-family: "Roboto", sans-serif;
@@ -41,6 +42,8 @@ header img {
 .Introduction .intro-left-side h1{
     font-weight: 700;
     margin-bottom: 20px; 
+    font-size: 35px;
+    text-align: center;
 }
 
 .Introduction .intro-left-side p{
@@ -56,7 +59,7 @@ header img {
    align-items: center;
    justify-content: center;
    display: inline-flex;
-   margin-right: 40px;
+   margin-right: 10px;
 }
 
 
@@ -77,24 +80,10 @@ header img {
 
 /* Introduction end */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.Introduction .intro-right-side img{
+    width: 300px;
+    margin: 0 auto;
+}
 
 @media(max-width:575px) {
     .parentdiv{
@@ -115,6 +104,32 @@ header img {
         max-width: 720px;
         margin: 0 auto;
     }
+    header nav{
+        display:block;
+    }
+     .fa-bars{
+    display: none;
+     }
+     .Introduction{
+        display: flex;
+    }
+    .Introduction .intro-left-side{
+        padding-top: 70px;
+
+    }
+    .Introduction .intro-left-side h1{
+        font-size: 34px;
+        text-align: left;
+    }
+    .Introduction .intro-right-side img{
+        width: 400px;
+    }
+          
+     .intro-right-side{
+        margin-left: 20px;
+        padding-top: 40px;
+    }
+    
 }
 
 @media(min-width:992px){
@@ -122,9 +137,7 @@ header img {
         max-width: 960px;
         margin: 0 auto;
     }
-    .Introduction{
-        display: flex;
-    }
+    
     .Introduction .intro-left-side h1{
         font-size: 72px; 
     }
@@ -135,6 +148,10 @@ header img {
 .Introduction .intro-right-side{
     padding: 72px 0 ;
 }
+    .Introduction .intro-right-side img{
+       width: 500px; 
+    }
+    
 }
 
 @media(min-width:1200px){
@@ -145,13 +162,4 @@ header img {
 }
 
 
-@media(min-width:768px){
-header nav{
-    display:block;
-}
- .fa-bars{
-display: none;
- }
 
-}
-    
